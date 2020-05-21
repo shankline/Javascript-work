@@ -1,0 +1,25 @@
+const money = 150000;
+
+        console.log(money)
+
+        function askForLoan(money) {
+            if (money > 15000) {
+                console.log("You can access a loan");
+            }
+            return;
+        }
+
+        askForLoan(money);
+        
+
+
+        
+ numbers = [1, 2, 3];
+   console.log(numbers);
+   numbers.push(4);
+   numbers.push(5);
+   console.log(numbers); 
+
+   anObject = {left:1, right: 2};
+   delete anObject.left;
+   console.log(anObject.left);
