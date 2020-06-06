@@ -1,0 +1,28 @@
+var a=(80,25)
+ var b=(34,25)
+function numbers(){
+var a=80<<25 ;
+var b =34<<25 ;
+ 
+}
+console.log(a,b)
+
+
+var num = 23>>>35;
+console.log(num)
+
+
+var num= 100^30;
+console.log(num)
+
+var age =29 & 35;
+console.log(age)
+
+var num =12>>4;
+console.log(num)
+
+
+//learning how to use assignment operators 
+// learning to assign values to javascript variables
+
+
