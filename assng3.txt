@@ -1,35 +1,46 @@
-//  conditional operator
-var  money =150000;
-function askForMoney(money) {
-(Money>15000)?console.log("You can access loan "):("You cannot access loan")
+//conditional operator
+function askForMoney() {
+  var  money =9000;
+  money > 15000 ? console.log("You can access loan ") : console.log("You cannot access loan");
  }
  
- askForMoney(money)
+ askForMoney()
    
 // Delete operator
 var student = {firstname: 'shankline',lastname: 'Aturinde'};
 console.log(student.firstname);
 delete student.firstname;
-
+console.log(student.firstname);
 // OR operator
+var a=(56||56);
+var b=(53||23);
+console.log(true || false)
+ 
+var a=(34||34)
+var b=(24||24)
+ console.log(true||true)
 
-  var names=("Suzzie","Dianah")
-   function name(){
-     var a="Suzzie";
-     var b="Diana";
-     a=="Suzzie"||b=="Dianah"
-   }
-     console.log(names);
 
-       var money = 150000;
-      function myFunction(money) {
-            if (money > 15000) {
-                console.log("You can access a loan");
+
+//The in operator returns true if the specified property is in the specified object 
+
+const car = { type:'Honda',year: 1998 };
+  
+console.log('type' in car);
+  
+
+//how to call afunction
+const food = "rice";
+      function myFunction() {
+            if (food =="rice") {
+                console.log("eat food");
             } else {
-              console.log("You cannot access a loan");
+              console.log("do not eat food");
             }
         }
-        myFunction(money);
+        myFunction();
+  
+
 
 
    
